@@ -142,20 +142,18 @@ Which URL do you navigate to in order to check that the ELK server is running?
 ![Diagram](Diagrams/Kibana%20screenshot.png)
 
 Additional Commands Used
-COMMAND	PURPOSE
-| 	| 
-sudo apt install docker.io	install docker application
-sudo service docker start	start the docker application
-systemctl status docker	status of the docker application
-sudo docker pull cyberxsecurity/ansible	download the docker file
-sudo docker run -ti cyberxsecurity/ansible bash	run and create a docker image
-sudo docker start	starts the image specified
-sudo docker ps -a	list all active/inactive containers
-sudo docker attach	effectively sshing into the ansible
-ssh-keygen	create a ssh key
-ansible -m ping all	check the connection of ansible 
+
 | COMMAND	 | PURPOSE   | 
 |---|---|
-|  sudo apt-get update | this will update all packages  |   |   |   |
-|   |   |   
-|   |   |   
+|  sudo apt-get update | this will update all packages  |  
+|  sudo service docker start |  start the docker application |
+|  sudo apt install docker.io | install docker application  |   
+|  systemctl status docker | status of the docker application  |   
+|  sudo docker pull cyberxsecurity/ansible | download the docker file  |
+|  sudo docker run -ti cyberxsecurity/ansible bash | run and create a docker image  |
+| sudo docker start  | starts the image specified  |
+|  sudo docker ps -a | list all active/inactive containers  |
+|  sudo docker attach | effectively sshing into the ansible  |
+|  ssh-keygen | create a ssh key  |
+| ansible -m ping all  | check the connection of ansible  |
+|                       |                                 |
